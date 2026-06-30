@@ -274,12 +274,13 @@ DASHBOARD_HTML = """<!DOCTYPE html>
 <body>
 
 <nav>
-  <a class="nav-logo" href="https://sridharvanka.me">Sridhar Vanka</a>
+  <a class="nav-logo" href="https://sridharvanka.me">SRIDHAR VANKA</a>
   <div class="nav-links">
     <a href="https://sridharvanka.me/#writing">Writing</a>
     <a href="https://sridharvanka.me/build.html">Building</a>
     <a href="https://sridharvanka.me/#work">Projects</a>
     <a href="https://sridharvanka.me/aboutme.html">About</a>
+    <a href="mailto:sridhar.vanka@gmail.com">Get in touch</a>
   </div>
 </nav>
 
