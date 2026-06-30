@@ -1,0 +1,163 @@
+[
+  {
+    "ticket_id": "TKT-001",
+    "created_at": "2025-06-30T08:00:00Z",
+    "channel": "web_form",
+    "subject": "Question about your refund policy",
+    "body": "Hi, I recently cancelled my subscription and I want to understand if I qualify for a prorated refund. What is your policy for mid-cycle cancellations? I signed up on the 15th and cancelled on the 22nd.",
+    "account": {
+      "user_id": "USR-1001",
+      "email": "alice@example.com",
+      "subscription_tier": "pro",
+      "account_status": "active",
+      "recent_payments": [
+        { "date": "2025-06-15", "amount": 29.99, "status": "success" }
+      ],
+      "last_login_at": "2025-06-30T07:45:00Z",
+      "last_login_country": "US"
+    }
+  },
+  {
+    "ticket_id": "TKT-002",
+    "created_at": "2025-06-30T08:15:00Z",
+    "channel": "email",
+    "subject": "I was charged twice this month",
+    "body": "I noticed two charges of $29.99 on my credit card statement this month, both from your service. I only have one account. Please investigate and refund the duplicate charge. My last payment was on June 1st and there is another on June 3rd.",
+    "account": {
+      "user_id": "USR-1002",
+      "email": "bob@example.com",
+      "subscription_tier": "pro",
+      "account_status": "active",
+      "recent_payments": [
+        { "date": "2025-06-01", "amount": 29.99, "status": "success" },
+        { "date": "2025-06-03", "amount": 29.99, "status": "success" }
+      ],
+      "last_login_at": "2025-06-29T20:00:00Z",
+      "last_login_country": "US"
+    }
+  },
+  {
+    "ticket_id": "TKT-003",
+    "created_at": "2025-06-30T08:30:00Z",
+    "channel": "chat",
+    "subject": "Cannot log in to my account",
+    "body": "I keep getting an error when I try to log in. I have tried resetting my password twice but the reset email never arrives. I can see my account exists because I get a different error when I try to sign up with the same email. Please help me regain access.",
+    "account": {
+      "user_id": "USR-1003",
+      "email": "carol@example.com",
+      "subscription_tier": "free",
+      "account_status": "active",
+      "recent_payments": [],
+      "last_login_at": "2025-06-25T14:00:00Z",
+      "last_login_country": "UK"
+    }
+  },
+  {
+    "ticket_id": "TKT-004",
+    "created_at": "2025-06-30T08:45:00Z",
+    "channel": "web_form",
+    "subject": "Export button not working on Safari",
+    "body": "The export to CSV button on the reports page does nothing when I click it. I am using Safari 17 on macOS Sonoma. I have tried clearing my cache. The button works fine on Chrome. Steps to reproduce: go to Reports, filter by last 30 days, click Export CSV. The button appears to flash briefly but nothing downloads. Error code: none visible.",
+    "account": {
+      "user_id": "USR-1004",
+      "email": "dan@example.com",
+      "subscription_tier": "enterprise",
+      "account_status": "active",
+      "recent_payments": [
+        { "date": "2025-06-01", "amount": 299.00, "status": "success" }
+      ],
+      "last_login_at": "2025-06-30T08:40:00Z",
+      "last_login_country": "US"
+    }
+  },
+  {
+    "ticket_id": "TKT-005",
+    "created_at": "2025-06-30T09:00:00Z",
+    "channel": "email",
+    "subject": "Payment failed and now I can't log in",
+    "body": "My credit card expired and my payment failed last week. I updated my card details but my account still shows as suspended and I cannot log in. The new card is valid and has funds. Please fix my billing and restore my access.",
+    "account": {
+      "user_id": "USR-1005",
+      "email": "eve@example.com",
+      "subscription_tier": "pro",
+      "account_status": "suspended",
+      "recent_payments": [
+        { "date": "2025-06-23", "amount": 29.99, "status": "failed" },
+        { "date": "2025-06-28", "amount": 29.99, "status": "failed" }
+      ],
+      "last_login_at": "2025-06-22T10:00:00Z",
+      "last_login_country": "US"
+    }
+  },
+  {
+    "ticket_id": "TKT-006",
+    "created_at": "2025-06-30T09:15:00Z",
+    "channel": "web_form",
+    "subject": "Unexpected charge and suspicious activity",
+    "body": "I was charged $299 for an enterprise plan upgrade I never authorised. I only have a Pro plan. Please refund this charge immediately. I am also concerned someone may have accessed my account without my knowledge.",
+    "account": {
+      "user_id": "USR-1006",
+      "email": "frank@example.com",
+      "subscription_tier": "enterprise",
+      "account_status": "suspended",
+      "recent_payments": [
+        { "date": "2025-06-29", "amount": 299.00, "status": "success" },
+        { "date": "2025-06-28", "amount": 29.99, "status": "failed" }
+      ],
+      "last_login_at": "2025-06-29T03:00:00Z",
+      "last_login_country": "RU"
+    }
+  },
+  {
+    "ticket_id": "TKT-007",
+    "created_at": "2025-06-30T09:30:00Z",
+    "channel": "email",
+    "subject": "Dashboard just spins and never loads",
+    "body": "My dashboard has been completely broken for two days. When I sign in it just shows a spinning loader indefinitely. I have tried on three different browsers and two different computers. Nothing loads at all. I have no idea what the issue could be.",
+    "account": {
+      "user_id": "USR-1007",
+      "email": "grace@example.com",
+      "subscription_tier": "pro",
+      "account_status": "active",
+      "recent_payments": [
+        { "date": "2025-06-01", "amount": 29.99, "status": "success" }
+      ],
+      "last_login_at": "2025-06-30T09:25:00Z",
+      "last_login_country": "CA"
+    }
+  },
+  {
+    "ticket_id": "TKT-008",
+    "created_at": "2025-06-30T09:45:00Z",
+    "channel": "chat",
+    "subject": "App completely down - cannot access anything",
+    "body": "Your entire platform appears to be down. None of our team members can access anything. The login page itself is returning a 503 error. This is affecting our whole company. We need an urgent response. Multiple users affected across different locations.",
+    "account": {
+      "user_id": "USR-1008",
+      "email": "henry@example.com",
+      "subscription_tier": "enterprise",
+      "account_status": "active",
+      "recent_payments": [
+        { "date": "2025-06-01", "amount": 299.00, "status": "success" }
+      ],
+      "last_login_at": "2025-06-30T09:40:00Z",
+      "last_login_country": "US"
+    }
+  },
+  {
+    "ticket_id": "TKT-009",
+    "created_at": "2025-06-30T10:00:00Z",
+    "channel": "email",
+    "subject": "I need help",
+    "body": "Hi, I am having some kind of problem with my account. Something is not right but I am not sure how to explain it. Things seem off. Please look into it.",
+    "account": {
+      "user_id": "USR-1009",
+      "email": "iris@example.com",
+      "subscription_tier": "free",
+      "account_status": "active",
+      "recent_payments": [],
+      "last_login_at": "2025-06-30T09:55:00Z",
+      "last_login_country": "US"
+    }
+  }
+]
