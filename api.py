@@ -321,7 +321,7 @@ DASHBOARD_HTML = """<!DOCTYPE html>
 <div class="triage-section" style="margin-top:2rem">
   <div class="triage-label">Try a single ticket → POST /triage</div>
   <div class="triage-form">
-    <textarea id="triageInput" placeholder='{"ticket_id":"TKT-X","created_at":"2025-06-30T10:00:00Z","channel":"chat","subject":"I was charged twice","body":"I see two $29.99 charges this month.","account":{"user_id":"USR-X","email":"test@example.com","subscription_tier":"pro","account_status":"active","recent_payments":[{"date":"2025-06-01","amount":29.99,"status":"success"},{"date":"2025-06-03","amount":29.99,"status":"success"}],"last_login_at":"2025-06-30T09:00:00Z","last_login_country":"US"}}'></textarea>
+    <textarea id="triageInput">{"ticket_id":"TKT-X","created_at":"2025-06-30T10:00:00Z","channel":"chat","subject":"I was charged twice","body":"I see two $29.99 charges this month.","account":{"user_id":"USR-X","email":"test@example.com","subscription_tier":"pro","account_status":"active","recent_payments":[{"date":"2025-06-01","amount":29.99,"status":"success"},{"date":"2025-06-03","amount":29.99,"status":"success"}],"last_login_at":"2025-06-30T09:00:00Z","last_login_country":"US"}}</textarea>
     <div class="form-row">
       <button class="triage-btn" id="triageBtn" onclick="triageOne()">Triage this ticket →</button>
       <span id="triageStatus" style="font-size:0.75rem;color:var(--text-dim)"></span>
